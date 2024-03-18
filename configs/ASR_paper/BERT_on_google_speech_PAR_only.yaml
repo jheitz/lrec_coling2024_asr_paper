@@ -1,0 +1,10 @@
+name: "BERT on google speech PAR only"
+model: "BERT"
+num_epochs: 30
+learning_rate: 4.e-6
+data: "ADReSS_audio"
+use_val_set: False
+preprocessors:
+  - "PAR segmentation"
+  - "ASR google_speech"
+

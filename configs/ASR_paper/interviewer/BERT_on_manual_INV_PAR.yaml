@@ -1,0 +1,10 @@
+name: "BERT on manual"
+model: "BERT"
+num_epochs: 30
+data: "ADReSS_manual_transcripts"
+use_val_set: False
+cv_splits: 10
+learning_rate: 4.e-6
+preprocessors: []
+config_data:
+    only_PAR: False

@@ -1,0 +1,38 @@
+name: dementia
+channels:
+  - conda-forge
+  - huggingface
+  - defaults
+  - nvidia
+  - pytorch
+dependencies:
+  - python=3.9
+  - pyyaml
+  - transformers
+  - pytorch
+  - torchaudio=2.0
+  - torchvision
+  - matplotlib
+  - evaluate
+  - scikit-learn
+  - jupyterlab
+  - openpyxl
+  - plotly
+  - mutagen
+  - pytorch-cuda=11.8
+  - torchmetrics
+  - pyctcdecode
+  - seaborn
+  - stanza
+  - shap
+  - jiwer
+  - librosa
+  - pip:
+      - openai
+      - bertviz
+      - lime
+      - deepmultilingualpunctuation
+      - webrtcvad
+      - google-cloud-storage
+      - google-cloud-speech
+      - striprtf

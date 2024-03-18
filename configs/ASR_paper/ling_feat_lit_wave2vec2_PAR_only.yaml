@@ -1,0 +1,10 @@
+name: "RandomForest linguistic features"
+model: "RandomForest"
+data: "ADReSS_audio"
+cv_splits: 10
+store_model: False
+preprocessors:
+  - "PAR segmentation"
+  - "ASR wave2vec2"
+  - "Linguistic Features Literature"
+

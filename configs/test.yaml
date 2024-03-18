@@ -1,0 +1,10 @@
+name: "RandomForest linguistic features"
+model: "RandomForest"
+data: "ADReSS_manual_transcripts"
+cv_splits: 10
+store_model: False
+config_data:
+  keep_terminators: True
+preprocessors:
+  - "Linguistic Features Literature"
+
