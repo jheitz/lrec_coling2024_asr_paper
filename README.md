@@ -22,7 +22,7 @@ This project contains code used to produce our submission to the LREC-Coling 202
   - `main.py`: Main pipeline script
 
 ## Data
-This project depends on the [ADReSS dataset](https://luzs.gitlab.io/adress/). Make sure you have access to this data.
+This project depends on the [ADReSS dataset](https://luzs.gitlab.io/adress/). Access is given to all members of [DementiaBank](https://dementia.talkbank.org), which you can become free of charge.
 
 ## Setup
 ### Create conda environment
