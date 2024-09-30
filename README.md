@@ -2,7 +2,9 @@
 
 ## Overview
 
-This project contains code used to produce our submission to the LREC-Coling 2024 conference.
+This project contains code used in our LREC-COLING 2024 submission:
+
+Heitz, Jonathan, Gerold Schneider, and Nicolas Langer. "The Influence of Automatic Speech Recognition on Linguistic Features and Automatic Alzheimer’s Disease Detection from Spontaneous Speech." In _Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)_, pp. 15955-15969. 2024.
 
 ## Project structure
 - `analysis`: Jupyter notebooks for data analysis and plotting of results.
